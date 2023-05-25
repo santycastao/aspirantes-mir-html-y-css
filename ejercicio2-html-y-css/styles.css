@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;800&display=swap');
+
+html{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+
+input.size, select.size{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 7px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 25px;
+}
+
+label,form,input{
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;;
+}
+
+#titulo{
+    font-size: 40px;
+}
+
+#container{
+    background-image:  linear-gradient(#bd09b7,#6b4cf5);
+    width: 300px;
+    padding: 20px;    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 10px 12px 12px 2px #5e5e5e;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+#boton{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    left: 90%;
+    transform: translateX(-70%);
+    font-size: 25px;
+}
